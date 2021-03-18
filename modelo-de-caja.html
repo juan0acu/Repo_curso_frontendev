@@ -7,16 +7,32 @@
     <title>Modelo de Caja</title>
 </head>
 <style>
+  /*  body{
+        margin: 0; Esto es para que el borde sea cero y no se vea el espacio en blanco
+    }*/
     .caja{
         background-color: #7eca9c;
+        max-width: 100px;
+        max-height: 100px;
+        padding: 100px;
+       border: 2px solid #40394a;
+        box-sizing: border-box; /*Para que se respete le tamaño de caja con el borde */
+        margin: 10px 20px 30px 40px;
+    }
+    .caja2{
+        background-color: #cdc733;
         max-width: 50px;
         max-height: 50px;
         padding: 50px;
+        box-sizing: border-box;
     }
 </style>
 <body>
     <div class="caja">
-   
+   1
+    </div>
+    <div class="caja2">
+   2
     </div>
 </body>
 </html>
